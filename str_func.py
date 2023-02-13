@@ -3,8 +3,7 @@ def func():
     Функция на все большие буквы
     """
     user_text = input()
-    text = user_text.upper()
-    return text
+    return user_text.upper()
 
 
 def func_2():
@@ -12,5 +11,4 @@ def func_2():
     ФУнкция каждое слово с заглавной
     """
     user_text = input()
-    text = user_text.title()
-    return text
+    return user_text.title()
